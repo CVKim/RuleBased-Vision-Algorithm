@@ -13,13 +13,19 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Algorithm">
+      <UniqueIdentifier>{5c04ecca-09d6-4827-a610-c6bf583493af}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="KBRulebase.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="BarcodeRulebase.cpp">
+      <Filter>소스 파일\Algorithm</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -27,7 +33,10 @@
       <Filter>소스 파일\헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="KBRulebase.h">
-      <Filter>소스 파일\헤더 파일</Filter>
+      <Filter>소스 파일\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="BarcodeRulebase.h">
+      <Filter>소스 파일\Algorithm</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

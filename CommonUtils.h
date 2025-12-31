@@ -1,4 +1,5 @@
 #pragma once
+#define NOMINMAX
 
 #include <iostream>
 #include <vector>
@@ -11,6 +12,7 @@
 #include <iomanip>
 #include <chrono>
 #include <ctime>
+
 #include <windows.h>
 
 #include <opencv2/opencv.hpp>

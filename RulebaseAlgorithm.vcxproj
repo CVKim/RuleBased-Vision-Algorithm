@@ -155,10 +155,12 @@
   <ItemGroup>
     <ClCompile Include="KBRulebase.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="BarcodeRulebase.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CommonUtils.h" />
     <ClInclude Include="KBRulebase.h" />
+    <ClInclude Include="BarcodeRulebase.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
